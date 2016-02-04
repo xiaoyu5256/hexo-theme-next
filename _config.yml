@@ -27,10 +27,10 @@ rss:
 # Remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  #categories: /categories
-  #about: /about
+  categories: /categories
   archives: /archives
   tags: /tags
+  about: /about
   #commonweal: /404.html
 
 
@@ -57,9 +57,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
-#scheme: Pisces
+#scheme: Muse
+scheme: Mist
+# scheme: Pisces
 
 
 
@@ -69,17 +69,20 @@ scheme: Muse
 
 
 # Social links
-# social:
-  #GitHub:
-  #Others:
+social:
+  GitHub: https://github.com/xiaoyu5256
+  Twitter: https://twitter.com/xiaoyu5256
+  Weibo: http://weibo.com/xiaoyu5256
+  Douban: http://douban.com/people/xiaoyu5256
 
 # Social Icons
 social_icons:
   enable: true
   # Icon Mappings
-  GitHub: github
-  Twitter: twitter
-  Weibo: weibo
+  GitHub: GitHub
+  Twitter: Twitter
+  Weibo: 新浪微博
+  douban: 豆瓣
 
 
 # Sidebar Avatar
@@ -103,7 +106,7 @@ toc:
 #creative_commons: by-nc-sa
 #creative_commons:
 
-sidebar:
+sidebar: 
   # Sidebar Position, available value: left | right
   position: left
   #position: right
@@ -114,7 +117,7 @@ sidebar:
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle icon.
   display: post
-  #display: always
+  # display: always
   #display: hide
   #display: remove
 
@@ -162,13 +165,13 @@ mathjax:
 
 
 # Swiftype Search API Key
-#swiftype_key:
+swiftype_key: wUk8jywGTHnEoufvyC6k
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: d19398d6ff57c46d4b3620064d731f80
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: xiaoyu5256
 
 # Disqus
 #disqus_shortname:
