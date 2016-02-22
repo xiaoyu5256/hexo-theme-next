@@ -167,7 +167,7 @@ mathjax:
 
 
 # Swiftype Search API Key
-swiftype_key: wUk8jywGTHnEoufvyC6k
+# swiftype_key: wUk8jywGTHnEoufvyC6k
 
 # Baidu Analytics ID
 baidu_analytics: d19398d6ff57c46d4b3620064d731f80
@@ -179,8 +179,8 @@ duoshuo_shortname: showmecode
 #disqus_shortname:
 
 # Share
-#jiathis:
-#add_this_id:
+jiathis: true
+add_this_id: 2084895
 
 # Share
 #duoshuo_share: true
